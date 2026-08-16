@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, MapPin } from "lucide-react";
 import { heroFacts, personal, stats } from "@/lib/data";
+import Typewriter from "./Typewriter";
 
 export default function Hero() {
   return (
@@ -28,8 +29,7 @@ export default function Hero() {
               transition={{ duration: 0.5, delay: 0.05 }}
               className="text-accent text-sm mb-3"
             >
-              $
-            </motion.p>
+              $ <Typewriter text="whoami" className="text-accent-2" /></motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 14 }}
               animate={{ opacity: 1, y: 0 }}

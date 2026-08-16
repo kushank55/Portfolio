@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-bg: #0a0d0a;
   --color-bg-elevated: #101410;
   --color-bg-card: #0d110d;
@@ -12,20 +12,6 @@
   --color-accent: #4ade80;
   --color-accent-dim: #2f7a4d;
   --color-accent-2: #f5b942;
-}
-
-@theme inline {
-  --color-bg: var(--color-bg);
-  --color-bg-elevated: var(--color-bg-elevated);
-  --color-bg-card: var(--color-bg-card);
-  --color-border: var(--color-border);
-  --color-border-hover: var(--color-border-hover);
-  --color-text: var(--color-text);
-  --color-text-dim: var(--color-text-dim);
-  --color-text-faint: var(--color-text-faint);
-  --color-accent: var(--color-accent);
-  --color-accent-dim: var(--color-accent-dim);
-  --color-accent-2: var(--color-accent-2);
   --font-mono: var(--font-jetbrains-mono);
 }
 
